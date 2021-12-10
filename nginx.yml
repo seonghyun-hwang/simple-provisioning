@@ -3,7 +3,7 @@
   hosts: all
   become: true
   tasks:
-    - name:Enable nginx for amazon linux 2
+    - name: Enable nginx for amazon linux 2
       shell: "amazon-linux-extras enable nginx1.12"
       become: true
     - name: Install Nginx
